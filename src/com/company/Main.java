@@ -7,9 +7,10 @@ public class Main {
         System.out.println("Enter Radius of Circle: ");
         Scanner scanner = new Scanner(System.in);
         int radius = scanner.nextInt();
-       
-        Circle circlce = new Circle();
-        circlce.area(radius);
-        circlce.cirumference(radius);
+
+        Circle circle = new Circle();
+        circle.cirumference(radius);
+        circle.area(radius);
+
     }
 }
