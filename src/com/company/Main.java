@@ -9,7 +9,7 @@ public class Main {
         int radius = scanner.nextInt();
 
         Circle circle = new Circle();
-        circle.cirumference(radius);
+        circle.circumference(radius);
         circle.area(radius);
 
     }

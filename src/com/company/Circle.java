@@ -8,7 +8,7 @@ public class Circle {
         System.out.println("Area of Circle : " + (PI * (radius * radius)));
     }
 
-    public static void cirumference(double radius) {
+    public static void circumference(double radius) {
         System.out.println("Circumference of Circle : " + (PI * 2 * radius));
     }
 
